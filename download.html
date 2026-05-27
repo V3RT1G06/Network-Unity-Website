@@ -132,7 +132,7 @@
       </div>
       <div class="step-body">
         <h4>Run the EXE</h4>
-        <p>Double-click Network Unity Chat.exe. If Windows SmartScreen appears, click More Info then Run Anyway.</p>
+        <p>Double-click Network Unity Chat.exe. If a blue SmartScreen popup appears, click <b>More Info</b> then <b>Run Anyway</b>. See below for why this happens.</p>
       </div>
     </div>
 
@@ -149,6 +149,93 @@
 
   </div>
 </div>
+
+<!-- ── SmartScreen / Trust section ── -->
+<div class="trust-section">
+  <div class="trust-inner">
+
+    <h2>Why Does Windows Warn You?</h2>
+    <p class="trust-sub">
+      When you run Network Unity Chat for the first time, Windows may show a blue screen
+      saying <b style="color:var(--white)">"Windows Protected Your PC."</b>
+      This is normal and does not mean the app is a virus.
+      Here is why it happens and how to get past it.
+    </p>
+
+    <div class="smartscreen-box">
+      <div class="smartscreen-header">
+        <span class="ss-icon">&#x1F6E1;</span>
+        <div>
+          <h3>Why SmartScreen Appears</h3>
+          <p>Windows Defender SmartScreen &mdash; what it is and why it fires</p>
+        </div>
+      </div>
+      <div class="smartscreen-body">
+        <p>
+          Windows SmartScreen flags any app that does not have a
+          <b>code-signing certificate</b> from Microsoft. These certificates cost
+          hundreds of dollars per year and are only worth it for large commercial
+          software. Network Unity Chat is a free indie app, so it is not signed —
+          which is completely normal for free tools.
+        </p>
+        <p>
+          SmartScreen does not scan the file for viruses. It just checks whether
+          the developer paid for a certificate. The warning does <b>not</b> mean
+          the app is dangerous. If you are still unsure, scroll down — you can
+          try the chat in your browser first before installing anything.
+        </p>
+      </div>
+    </div>
+
+    <div class="smartscreen-box" style="margin-bottom:28px;">
+      <div class="smartscreen-header">
+        <span class="ss-icon">&#x2705;</span>
+        <div>
+          <h3>How to Run It Anyway</h3>
+          <p>Two clicks and you are in</p>
+        </div>
+      </div>
+      <div class="smartscreen-body">
+        <div class="ss-steps">
+          <div class="ss-step">
+            <div class="ss-num">1</div>
+            <span>When the blue SmartScreen popup appears, click <b>More info</b> (small text below the main message)</span>
+          </div>
+          <div class="ss-step">
+            <div class="ss-num">2</div>
+            <span>A <b>Run anyway</b> button will appear at the bottom of the screen &mdash; click it</span>
+          </div>
+          <div class="ss-step">
+            <div class="ss-num">3</div>
+            <span>Network Unity Chat will open normally. Windows only asks this <b>once</b> per install</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="verify-band">
+      <div class="verify-text">
+        <h3>Not Sure Yet? Try It in Your Browser First</h3>
+        <p>
+          You do not need to download anything to see that Network Unity is real.
+          Visit the full Network Unity website — the chat works right there in
+          your browser. See it for yourself before you install the app.
+        </p>
+      </div>
+      <a
+        href="https://sites.google.com/view/novasremade/home"
+        target="_blank" rel="noopener"
+        class="btn btn-white"
+        style="flex-shrink:0;padding:12px 24px;font-size:13px;letter-spacing:.07em;"
+      >
+        Try Chat in Browser &rarr;
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<hr class="line" style="margin-bottom:0;">
 
 <!-- ── Footer ── -->
 <footer>
