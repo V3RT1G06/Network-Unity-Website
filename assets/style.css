@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -12,7 +12,7 @@
 }
 
 html { scroll-behavior: smooth; }
-*, input, button, textarea, select { font-family: 'Nova Cut', cursive; }
+*, input, button, textarea, select { font-family: 'Special Elite', system-ui, sans-serif; }
 
 body {
   background: var(--bg);
